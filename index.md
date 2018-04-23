@@ -2,7 +2,7 @@
 
 Have you ever met this kind of situation: Once you hear a beautiful song but don’t know the name of the song, then you cannot find it any more without the name, which is a pity. However, with MusicFinder, we help you find this intriguing song. 
 
-Here is how MusicFinder works. The only task you need to do is record the song no less than 2 second and upload it to the MusicFinder iOS application. Just a monment, it will return the name of this song for you!
+The only task you need to do is to record the song and tab the identify button, the application will upload it to the MusicFinder Server. Just a monment, it will return the name of that song for you!
 
 ### Work Flow
 
