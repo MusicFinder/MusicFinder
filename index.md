@@ -6,7 +6,7 @@ Here is how MusicFinder works. The only task you need to do is record the song n
 
 ### Work Flow
 
-![work flow](/Flow chart of music (1).png)
+![work flow](/flow.png)
 
 ### Demo
 
