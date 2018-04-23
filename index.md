@@ -4,7 +4,15 @@ Have you ever met this kind of situation: Once you hear a beautiful song but don
 
 Here is how MusicFinder works. The only task you need to do is record the song no less than 2 second and upload it to the MusicFinder iOS application. Just a monment, it will return the name of this song for you!
 
-### Dataset example
+### Dataset source
+[Music sample](https://drive.google.com/drive/folders/1AKlQFAHL8VY6P4EX-qYlUWDhtScXt_7o)
+
+### Demo
+[MusicFinder](https://www.youtube.com/watch?v=AHwIdxOpN-E)
+
+### 
+![GitHub Logo](/images/logo.png)
+[GitHub](http://github.com)
 
 
 
