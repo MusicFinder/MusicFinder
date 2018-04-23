@@ -1,3 +1,15 @@
+## What's MusicFinder?
+
+Have you ever met this kind of situation: Once you hear a beautiful song but don’t know the name of the song, then you cannot find it any more without the name, which is a pity. However, with MusicFinder, we help you find this intriguing song. 
+
+Here is how MusicFinder works. The only task you need to do is record the song no less than 2 second and upload it to the MusicFinder iOS application. Just a monment, it will return the name of this song for you!
+
+### Dataset example
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MusicFinder/MusicFinder/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
