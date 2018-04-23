@@ -11,7 +11,7 @@ Here is how MusicFinder works. The only task you need to do is record the song n
 [MusicFinder](https://www.youtube.com/watch?v=AHwIdxOpN-E)
 
 ### 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/Bus_SW_Transfer_2.png)
 [GitHub](http://github.com)
 
 
