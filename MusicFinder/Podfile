@@ -1,6 +1,0 @@
-platform :ios, '8.0'
-target 'MusicFinder' do
-pod 'AFNetworking', '~> 3.0'
-pod 'EZAudio', '~> 1.1.4'
-end
-
