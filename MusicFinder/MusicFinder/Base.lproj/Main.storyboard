@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wdu-Wg-DSd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uUc-CG-UjL">
+            <objects>
+                <viewController id="wdu-Wg-DSd" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mgJ-SG-r2o"/>
+                        <viewControllerLayoutGuide type="bottom" id="YyZ-PE-YCI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HYj-bO-XbX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XX6-wN-hGZ" customClass="EZAudioPlotGL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GD2-44-PHg">
+                                        <rect key="frame" x="21" y="619" width="86.5" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CPK-nJ-zaV">
+                                        <rect key="frame" x="163" y="623" width="51" height="31"/>
+                                        <color key="onTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="toggleRecording:" destination="wdu-Wg-DSd" eventType="valueChanged" id="u0k-Vx-P4D"/>
+                                        </connections>
+                                    </switch>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Recording" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Tp-8O-bIO">
+                                        <rect key="frame" x="217" y="624" width="83" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="9Tp-8O-bIO" secondAttribute="bottom" constant="15" id="D0J-Fh-6CW"/>
+                                    <constraint firstItem="9Tp-8O-bIO" firstAttribute="leading" secondItem="CPK-nJ-zaV" secondAttribute="trailing" constant="11" id="FH0-CM-xN4"/>
+                                    <constraint firstItem="GD2-44-PHg" firstAttribute="leading" secondItem="XX6-wN-hGZ" secondAttribute="leading" constant="18" id="XBF-UG-bbp"/>
+                                    <constraint firstAttribute="bottom" secondItem="GD2-44-PHg" secondAttribute="bottom" constant="9.5" id="bRZ-5E-0UA"/>
+                                    <constraint firstAttribute="bottom" secondItem="CPK-nJ-zaV" secondAttribute="bottom" constant="13" id="pV2-QM-i3L"/>
+                                    <constraint firstItem="CPK-nJ-zaV" firstAttribute="centerX" secondItem="XX6-wN-hGZ" secondAttribute="centerX" id="uQ5-e0-YgA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XX6-wN-hGZ" firstAttribute="top" secondItem="HYj-bO-XbX" secondAttribute="top" id="88U-1T-ssS"/>
+                            <constraint firstItem="YyZ-PE-YCI" firstAttribute="top" secondItem="XX6-wN-hGZ" secondAttribute="bottom" id="MOD-FZ-D2L"/>
+                            <constraint firstAttribute="trailing" secondItem="XX6-wN-hGZ" secondAttribute="trailing" id="a6n-ne-t6U"/>
+                            <constraint firstItem="XX6-wN-hGZ" firstAttribute="leading" secondItem="HYj-bO-XbX" secondAttribute="leading" id="s2T-Tz-Vx9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currentTimeLabel" destination="GD2-44-PHg" id="Tln-Gm-aeP"/>
+                        <outlet property="recordSwitch" destination="CPK-nJ-zaV" id="WO9-xi-oKB"/>
+                        <outlet property="recordingAudioPlot" destination="XX6-wN-hGZ" id="ddY-8j-8L7"/>
+                        <outlet property="recordingStateLabel" destination="9Tp-8O-bIO" id="ZXR-4b-NKf"/>
+                        <outlet property="view" destination="HYj-bO-XbX" id="rKd-WN-eQb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="meB-aB-hDi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="60.719640179910051"/>
+        </scene>
+    </scenes>
+</document>
