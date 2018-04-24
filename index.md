@@ -4,7 +4,7 @@ Have you ever met this kind of situation: Once you hear a beautiful song but don
 
 The only task you need to do is to record several seconds of the song and tab the identify button, the application will upload it to the MusicFinder Server. Just a monment, it will return the name of that song for you!
 
-### What's our innovation?
+### What's Our Innovation?
 
 1. We apply computer vision techniques to conduct the music feature generation and feature matching.
 2. We develop a novel framework to perform music identification, which costs a bit more time but results in a higher accuracy.
@@ -26,7 +26,7 @@ These will be described in detail during presentation.
 
 code here will be uploaded tomorrow
 
-### Dataset source
+### Dataset Source
 
 [Music sample](https://drive.google.com/drive/folders/1AKlQFAHL8VY6P4EX-qYlUWDhtScXt_7o)
 * MusicTrain(1-5).zip is the dataset we collect, which contains 173 songs, please do not distribute it due to the copyright, we will remove them after the end of this term.
