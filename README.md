@@ -2,7 +2,7 @@
 
 Project of music recognition
 
-### File description
+### File Description
 
 * algorithm_code: code for preprocessing data
 * MusicFinder: iOS App code for recording, documents [here](https://github.com/syedhali/EZAudio) 
@@ -15,7 +15,7 @@ Project of music recognition
 * [librosa](https://librosa.github.io/librosa/install.html)
 * [pydub](https://github.com/jiaaro/pydub#installation)
 
-### Set up
+### Set Up
 
 * Run mySQL server
 * Modify the config of dejavu to make it connect to your local database
