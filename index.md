@@ -6,7 +6,7 @@ The only task you need to do is to record several seconds of the song and tab th
 
 ### What's our innovation?
 
-1. We apply computer vision techniques to conduct the music feature generation and feature matching
+1. We apply computer vision techniques to conduct the music feature generation and feature matching.
 2. We develop a novel framewrok to perform music identification, which costs a bit more time but results in a higher accuracy.
 3. We also give some insights on how to measure the music similarity.
 These will be described in detail during presentation.
