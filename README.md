@@ -23,7 +23,7 @@ Project of music recognition
 2. Modify the config of dejavu to make it connect to your local database
 3. Run `djv.fingerprint_directory("your wav data directory", [".wav"])` to generate fingerprint
 4. Generate mel-spectrogram then SURF descriptor using code in /algorithm_code and put the SURF descriptor into '/graph' directory
- * step 3 and 4 canbe skiped by directly downloading the preprocessed results of our data [see our homepage](https://musicfinder.github.io/MusicFinder/)
+ * step 3 and 4 can be skiped by directly downloading the preprocessed results of our data [see our homepage](https://musicfinder.github.io/MusicFinder/)
 5. Use the MusicFinder.xcworkspace to open the iOS App
 6. Modify the ip address in server and iOS APP ViewController.h to be the same valid address 
 
